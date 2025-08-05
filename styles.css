@@ -6,6 +6,8 @@ Christian Bookheimer
 CIS 114
 Final Project
 */
+
+/****Universal Styles****/
 html
 {
     background-color: rgb(16, 59, 48);
@@ -16,7 +18,7 @@ body
     background-color: #f0f0f0cc;
     font-family: Arial, sans-serif;
     color: #333;
-
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -28,10 +30,23 @@ body
 p
 {
     display: block;
-    border: #333 solid 1px;
-    padding: 10px;
+    width: auto;
+    padding: 20px;
+    border: 2px solid #5756566c;
+    
+    text-align: left;
+
 }
 
+.title
+{
+    padding-top : 20px;
+    text-align: center;
+    font-size: 1em;
+    border-bottom: 2px solid #5756566c;
+}
+
+/*header styles*/
  header 
  {
     position: fixed;
@@ -87,3 +102,25 @@ p
     background: rgba(255,255,255,0.15);
     text-decoration: underline;
 }
+
+/*Filament styles*/
+
+.filaments
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 5px;
+}
+.filaments th, .filaments td
+{
+    border: 1px solid #adadad;
+    padding: 8px;
+    text-align: center;
+}
+ .filament-odd
+ {
+    background-color: rgba(16, 59, 48, .25);
+ }
+
