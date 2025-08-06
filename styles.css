@@ -157,7 +157,7 @@ iframe
     list-style-type: none;
     display: flex;
     flex-wrap: none;
-
+    ;
     
  }
     
@@ -171,4 +171,14 @@ iframe
     margin-left: auto;
     margin-right: 0;
     align-self: flex-end;
+}
+
+.printers .title
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    border-bottom: none;
+    margin-right: 20px;
+    
 }
