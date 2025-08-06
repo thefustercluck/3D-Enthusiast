@@ -136,3 +136,39 @@ iframe
  {
     color: rgb(16, 59, 48)
  }
+
+ /* Printer styles */
+
+ .printers ul
+ {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .printers li
+ {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(16,59,48,0.5) 0%, rgba(16,59,48,0.03) 100%);
+    border: 1px solid #5756566c;
+    border-radius: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: none;
+
+    
+ }
+    
+ .printers img
+{
+    max-width: 400px;
+    height: auto;
+    margin-left: 20px;
+    border: 1px solid #5756566c;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-end;
+}
