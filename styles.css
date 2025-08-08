@@ -37,7 +37,7 @@ p
     background-color: rgba(15, 141, 32, 0.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 
-    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-family: Verdana, sans-serif;;
     text-align: left;
 
 }
@@ -48,6 +48,34 @@ p
     text-align: center;
     font-size: 1em;
     border-bottom: 2px solid #5756566c;
+}
+
+/*Aside styles*/
+.aside-left
+{
+    position:fixed;
+    top: 25%;
+    left: 9%;
+    width: 250px;   /* sidebar width */
+    height: 50vh;  /* full height of viewport */
+    background: #cecececc;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.aside-left a img, .aside-left img
+{
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.aside-title
+{
+    text-align: center;
 }
 
 /*header styles*/
@@ -196,3 +224,4 @@ iframe
     
 }
 
+/* Community styles */
