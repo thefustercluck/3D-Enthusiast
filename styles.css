@@ -53,16 +53,19 @@ p
 /*Aside styles*/
 .aside-left
 {
-    position:fixed;
-    top: 25%;
-    left: 9%;
-    width: 250px;   /* sidebar width */
-    height: 50vh;  /* full height of viewport */
+    position: absolute;
+    top: 80px; /* space below header */
+    left: -290px; /* place it just outside the body by default */
+    width: 250px;
+    height: 50vh;
     background: #cecececc;
     overflow-y: auto;
     border-right: 1px solid #ccc;
     padding: 10px;
     border-radius: 20px;
+}
+body {
+    position: relative;
 }
 
 .aside-left a img, .aside-left img
