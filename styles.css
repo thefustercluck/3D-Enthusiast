@@ -54,8 +54,8 @@ p
 .aside-left
 {
     position: absolute;
-    top: 80px; /* space below header */
-    left: -290px; /* place it just outside the body by default */
+    top: 80px; 
+    left: -290px; 
     width: 250px;
     height: 50vh;
     background: #cecececc;
@@ -64,7 +64,8 @@ p
     padding: 10px;
     border-radius: 20px;
 }
-body {
+body 
+{
     position: relative;
 }
 
@@ -79,6 +80,20 @@ body {
 .aside-title
 {
     text-align: center;
+}
+
+.aside-right
+{
+    position: absolute;
+    top: 80px; 
+    right: -290px; 
+    width: 250px;
+    height: 20vh;
+    background: #cecececc;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 /*header styles*/
